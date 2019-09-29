@@ -74,6 +74,11 @@ class Programmer_calculator(Calculator):
         num1 = int(input("Enter first number:"))
         num1 = num1 + 1
         return num1
+
+    def Decrement(self):
+        num1 = int(input("Enter first number:"))
+        num1 = num1 - 1
+        return num1
     
 
 print("1.Calculator")
