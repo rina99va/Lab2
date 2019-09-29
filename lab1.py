@@ -63,6 +63,12 @@ class Programmer_calculator(Calculator):
         num2 = int(input("Enter second number:"))
         num1 = num1 + num2
         return num1
+
+    def MinusEqual(self):
+        num1 = int(input("Enter first number:"))
+        num2 = int(input("Enter second number:"))
+        num1 = num1 - num2
+        return num1
     
 
 print("1.Calculator")
