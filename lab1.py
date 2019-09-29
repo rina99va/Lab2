@@ -63,26 +63,7 @@ class Programmer_calculator(Calculator):
         num2 = int(input("Enter second number:"))
         num1 = num1 + num2
         return num1
-
-    def MinusEqual(self):
-        num1 = int(input("Enter first number:"))
-        num2 = int(input("Enter second number:"))
-        num1 = num1 - num2
-        return num1
-
-    def Increment(self):
-        num1 = int(input("Enter first number:"))
-        num1 = num1 + 1
-        return num1
-
-    def Decrement(self):
-        num1 = int(input("Enter first number:"))
-        num1 = num1 - 1
-        return num1
-
-    def LogicalNOT(self):
-        num1 = int(input("Enter first number:"))
-        return not num1
+    
 
 print("1.Calculator")
 print("2.Engineering calculator")
@@ -132,10 +113,6 @@ elif choice == 10:
     print(c2.LogicalOR())
 elif choice == 11:
     print(c2.PlusEqual())
-elif choice == 12:
-    print(c2.Increment())
-elif choice == 13:
-    print(c2.LogicalNOT())
 else:
     print("Invalid input")
 
