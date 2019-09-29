@@ -79,6 +79,10 @@ class Programmer_calculator(Calculator):
         num1 = int(input("Enter first number:"))
         num1 = num1 - 1
         return num1
+
+    def LogicalNOT(self):
+        num1 = int(input("Enter first number:"))
+        return not num1
     
 
 print("1.Calculator")
