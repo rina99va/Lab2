@@ -70,8 +70,9 @@ class Programmer_calculator(Calculator):
         num1 = num1 - num2
         return num1
 
-    def Increment(self):
+    def LogicalNOT(self):
         num1 = int(input("Enter first number:"))
+<<<<<<< HEAD
         num1 = num1 + 1
         return num1
 
@@ -82,6 +83,8 @@ class Programmer_calculator(Calculator):
 
     def LogicalNOT(self):
         num1 = int(input("Enter first number:"))
+=======
+>>>>>>> feature
         return not num1
     
 
