@@ -69,11 +69,6 @@ class Programmer_calculator(Calculator):
         num2 = int(input("Enter second number:"))
         num1 = num1 - num2
         return num1
-
-    def Increment(self):
-        num1 = int(input("Enter first number:"))
-        num1 = num1 + 1
-        return num1
     
 
 print("1.Calculator")
