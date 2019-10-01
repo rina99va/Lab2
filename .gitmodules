@@ -1,0 +1,6 @@
+[submodule "Labirinth"]
+	path = Labirinth
+	url = https://github.com/rina99va/Labirinth.git
+[submodule "griddb_nosql"]
+	path = griddb_nosql
+	url = https://github.com/griddb/griddb_nosql.git
